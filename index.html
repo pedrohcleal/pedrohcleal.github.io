@@ -1,79 +1,142 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Perfil de Backend Developer - Pedro H. Cleal">
-    <title>Pedro H. Cleal - Backend Developer</title>
+    <title>Pedro Leal - Backend Developer & Data Engineer</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #000000;
-            color: #1eff00;
-            margin: 0;
-            padding: 20px;
-            text-align: center;
+            background-color: #1a1a1a;
+            color: #e0e0e0;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
         }
-        h1 {
-            color: #1eff00;
+        .tech-badge {
+            display: inline-block;
+            margin: 4px;
+            padding: 6px 12px;
+            border-radius: 4px;
+            transition: transform 0.2s;
         }
-        .badges img {
-            margin: 5px;
+        .tech-badge:hover {
+            transform: translateY(-2px);
         }
-        .section {
-            margin-top: 30px;
+        .section-title {
+            color: #61DAFB;
+            border-bottom: 2px solid #61DAFB;
+            padding-bottom: 8px;
+            margin-bottom: 16px;
+        }
+        .card {
+            background-color: #2d2d2d;
+            border-radius: 8px;
+            padding: 24px;
+            margin-bottom: 24px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .badge-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            justify-content: center;
+            align-items: center;
+            padding: 16px;
         }
     </style>
 </head>
 <body>
+    <div class="container mx-auto px-4 py-8 max-w-4xl">
+        <header class="text-center mb-12">
+            <h1 class="text-4xl font-bold mb-4 text-blue-400">Pedro Leal</h1>
+            <p class="text-xl text-gray-300">Backend Developer / Data Engineer</p>
+        </header>
 
-    <h1>🚀 Bem-vindo(a)!</h1>
+        <div class="card">
+            <h2 class="section-title text-2xl font-bold mb-6">🖖 Welcome!</h2>
+            <p class="mb-4">
+                I'm a <strong>Backend Developer/Data Engineer</strong> with expertise in building and maintaining systems for managing investment funds. My work focuses on delivering robust, efficient, and scalable solutions for the financial sector. I specialize in Python and SQL, integrating advanced APIs and automating processes critical to data handling and validation.
+            </p>
+        </div>
 
-    <p>Sou <strong>Pedro H. Cleal</strong>, um Desenvolvedor Backend com proficiência em Python e apaixonado por Rust e Java.</p>
+        <div class="card">
+            <h2 class="section-title text-2xl font-bold">Technologies & Tools</h2>
+            <div class="badge-container">
+                <!-- Programming Languages -->
+                <img src="https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54" alt="Python" class="tech-badge">
+                <img src="https://img.shields.io/badge/java-ED8B00?style=flat&logo=openjdk&logoColor=white" alt="Java" class="tech-badge">
+                <img src="https://img.shields.io/badge/rust-000000?style=flat&logo=rust&logoColor=white" alt="Rust" class="tech-badge">
+                
+                <!-- Frameworks -->
+                <img src="https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white" alt="FastAPI" class="tech-badge">
+                <img src="https://img.shields.io/badge/flask-000000?style=flat&logo=flask&logoColor=white" alt="Flask" class="tech-badge">
+                <img src="https://img.shields.io/badge/selenium-43B02A?style=flat&logo=selenium&logoColor=white" alt="Selenium" class="tech-badge">
+                <img src="https://img.shields.io/badge/BeautifulSoup-7D9EC2?style=flat&logoColor=white&logo=python" alt="BeautifulSoup" class="tech-badge">
+                <img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black" alt="React" class="tech-badge">
+                
+                <!-- Tools -->
+                <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=white" alt="Postman" class="tech-badge">
+                
+                <!-- Databases -->
+                <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white" alt="PostgreSQL" class="tech-badge">
+                <img src="https://img.shields.io/badge/sqlite-07405e?style=flat&logo=sqlite&logoColor=white" alt="SQLite" class="tech-badge">
+                <img src="https://img.shields.io/badge/dbeaver-2C2C32?style=flat&logo=dbeaver&logoColor=white" alt="DBeaver" class="tech-badge">
+                <img src="https://img.shields.io/badge/Microsoft_SQL_Server-CC2927?style=flat&logo=microsoft-sql-server&logoColor=white" alt="SQL Server" class="tech-badge">
+            </div>
+            <!-- Coding Profiles -->
+            <div class="badge-container mt-4">
+                <img src="https://www.codewars.com/users/pedrohcleal/badges/small" alt="codewars" class="tech-badge">
+                <img src="https://img.shields.io/badge/dynamic/json?style=flat-square&labelColor=black&color=%23ffa116&label=Solved&query=solvedOverTotal&url=https%3A%2F%2Fleetcode-badge.vercel.app%2Fapi%2Fusers%2Fpedrohcleal&logo=leetcode&logoColor=yellow" alt="leetcode" class="tech-badge">
+            </div>
+        </div>
 
-    <div class="badges">
-        <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python">
-        <img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java">
-        <img src="https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white" alt="Rust">
-        <img src="https://img.shields.io/badge/-selenium-%43B02A?style=for-the-badge&logo=selenium&logoColor=white" alt="Selenium">
-        <img src="https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white" alt="Flask">
-        <img src="https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi" alt="FastAPI">
-        <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL">
-        <img src="https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite">
-        <img src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL">
-        <img src="https://img.shields.io/badge/dbeaver-382923?style=for-the-badge&logo=dbeaver&logoColor=white" alt="DBeaver">
-        <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman">
-        <img src="https://www.codewars.com/users/pedrohcleal/badges/small" alt="Codewars">
-        <img src="https://img.shields.io/badge/dynamic/json?style=flat-square&labelColor=black&color=%23ffa116&label=Solved&query=solvedOverTotal&url=https%3A%2F%2Fleetcode-badge.vercel.app%2Fapi%2Fusers%2Fpedrohcleal&logo=leetcode&logoColor=yellow" alt="LeetCode">
+        <div class="card">
+            <h2 class="section-title text-2xl font-bold">🛠️ Key Skills</h2>
+            <div class="grid md:grid-cols-2 gap-6">
+                <div>
+                    <h3 class="text-xl font-semibold mb-3 text-blue-300">Backend Development</h3>
+                    <ul class="list-disc pl-6 space-y-2">
+                        <li>API development using FastAPI, Flask, and Django</li>
+                        <li>SOLID principles and clean architecture</li>
+                        <li>CRUD operations and system optimization</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold mb-3 text-blue-300">Data Engineering</h3>
+                    <ul class="list-disc pl-6 space-y-2">
+                        <li>Advanced SQL for complex queries</li>
+                        <li>Database modeling and performance tuning</li>
+                        <li>ETL pipeline creation</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2 class="section-title text-2xl font-bold">💻 Daily Practice</h2>
+            <ul class="list-disc pl-6 space-y-2">
+                <li>Courses on Udemy/YouTube/Datacamp and others</li>
+                <li>Summarizing with ChatGPT/Gemini, reviewing documentation and reading books</li>
+                <li>Solving algorithm challenges (+300 resolved in Codewars/LeetCode)</li>
+                <li>Developing projects in Python, Java, and Rust</li>
+                <li>Currently studying front-end development with CSS, HTML, JS, TS and React</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2 class="section-title text-2xl font-bold">🎓 Education</h2>
+            <ul class="space-y-2">
+                <li>Computer Engineering - USJT (Jul/2024)</li>
+                <li>Mechatronics Technician - ETEC MLK (Dec/2017)</li>
+            </ul>
+        </div>
+
+        <footer class="mt-12 text-center">
+            <div class="space-x-4">
+                <a href="https://github.com/pedrohcleal" class="text-blue-400 hover:text-blue-300">GitHub</a>
+                <a href="https://www.codewars.com/users/pedrohcleal" class="text-blue-400 hover:text-blue-300">Codewars</a>
+                <a href="https://leetcode.com/u/pedrohcleal/" class="text-blue-400 hover:text-blue-300">LeetCode</a>
+            </div>
+        </footer>
     </div>
-
-    <div class="section">
-        <h2>💻 Prática Diária</h2>
-        <ul>
-            <li>Aplicações CRUD para manipulação de banco de dados</li>
-            <li>Criação de APIs com FastAPI e Flask</li>
-            <li>Scripts de automação com Selenium, BeautifulSoup e bots</li>
-            <li>Resumos de documentações</li>
-            <li>Software desktop em Java (BookHub)</li>
-        </ul>
-    </div>
-
-    <div class="section">
-        <h2>🧑‍🎓 Formação Acadêmica</h2>
-        <ul>
-            <li>Técnico em Mecatrônica - ETEC MLK (Dez/2017)</li>
-            <li>Engenharia da Computação - USJT (Jul/2024)</li>
-        </ul>
-    </div>
-
-    <div class="section">
-        <h2>Estatísticas</h2>
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=pedrohcleal&layout=compact" alt="Top Languages">
-    </div>
-
-    <div class="section">
-        <p>📫 Estou sempre aberto a novas oportunidades e colaborações!</p>
-    </div>
-
 </body>
 </html>
